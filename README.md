@@ -2,8 +2,7 @@ OpenVDB Viewer - OpenGL
 version 1.0.0 
 Callum James 2014
 
-########################################################################################
-1. About OpenVDB Viewer - OpenGL
+# 1. About OpenVDB Viewer - OpenGL
 
 This application is used to open and view VDB files associated with the OpenVDB
 library. Once open, a selection of tools can be used to visualise different
@@ -18,8 +17,7 @@ OpenVDB Viewer has been built on OpenGL and GLSL and is compatible on OpenGL ver
 Currently, the OpenVDB Viewer builds and runs on MacOSX 10.9 Mavericks and Linux.
 Windows support has not been implemented but is one of the future development tracks.
 
-########################################################################################
-2. Application Requirements
+# 2. Application Requirements
 
 There are a few dependencies needed to build and run the OpenVDB Viewer. These are 
 listed below:
@@ -35,8 +33,7 @@ below).
 
 On MacOSX you will also need to ensure you have the OpenGL framework installed.
 
-########################################################################################
-3. Making the Application
+# 3. Making the Application
 
 To make the application, you first need to tell it where headers and libraries of its
 dependancies are. There are two ways in which you can do this within the .pro file.
@@ -92,8 +89,7 @@ Once these have all been set, run in the directory:
 Once built, dependant on your platform, run the appropriate application (either
 executable on Linux or .app on MacOSX)
 
-########################################################################################
-4. Quick Use Guide
+# 4. Quick Use Guide
 
 This is a very brief description of how to use the application. If you want a more
 detailed manual with diagrams (pretty pictures!), please refer to the Manual included
@@ -130,8 +126,7 @@ The crop tab can be used to apply up to three crop boxes to the volume.
 To display information about the file loaded and the hardware being used, either use
 the Information menu item or click the Show Information button on the render tab.
 
-########################################################################################
-5. Some Useful Quick Shortcuts
+# 5. Some Useful Quick Shortcuts
 
 There are a few useful shortcuts implemented into the application to make use easier.
 In the following list, the shortcuts specified are for Linux and MacOSX respectively:
